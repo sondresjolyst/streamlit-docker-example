@@ -1,6 +1,6 @@
 [project]
 name = "streamlit-example"
-version = "0.1.0"
+version = "0.1.1"
 description = "streamlit-example"
 authors = [
     {name = "sondresjolyst"}
@@ -9,7 +9,10 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "streamlit (>=1.50.0,<2.0.0)"
+    "streamlit (>=1.50.0,<2.0.0)",
+    "common-authentication @ ./libraries/common_authentication",
+    "numpy (>=1.26.4,<2.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)"
 ]
 
 [tool.poetry]

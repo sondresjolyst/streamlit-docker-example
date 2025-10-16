@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "common_authentication"
+version = "0.1.5"
+description = ""
+authors = ["sondresjolyst <sonyslyst@gmail.com>"]
+readme = "README.md"
+packages = [{include = "common_authentication"}]
+
+[tool.poetry.dependencies]
+bokeh = "^2.4.3"
+streamlit = "^1.35.0"
+requests = "2.32.3"
+types-requests = "2.31"
+azure-identity = "1.16.1"
+tornado = "6.4.1"
+types-pytz = "^2024.1.0.20240417"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
